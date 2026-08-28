@@ -1,4 +1,332 @@
 {
-  "version": 2,
-  "blockIds": []
+  "version": 3,
+  "blockIds": [
+    "chance-title",
+    "chance-opening",
+    "chance-promise",
+    "counting-heading",
+    "counting-formula",
+    "counting-setup",
+    "counting-visual",
+    "counting-worked-example",
+    "counting-practice-twelve",
+    "counting-practice-nothing",
+    "wanted-heading",
+    "wanted-setup",
+    "wanted-visual",
+    "wanted-rule",
+    "wanted-practice-choice",
+    "wanted-practice-percent",
+    "unequal-heading",
+    "unequal-setup",
+    "unequal-visual",
+    "unequal-rule",
+    "unequal-practice-wheel",
+    "unequal-practice-counting",
+    "wrapping-heading",
+    "wrapping-summary",
+    "wrapping-next"
+  ],
+  "rows": [
+    {
+      "id": "layout-chance-title",
+      "type": "stack",
+      "columns": [
+        [
+          "chance-title"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-chance-opening",
+      "type": "stack",
+      "columns": [
+        [
+          "chance-opening"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-chance-promise",
+      "type": "stack",
+      "columns": [
+        [
+          "chance-promise"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-counting-heading",
+      "type": "stack",
+      "columns": [
+        [
+          "counting-heading"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "editor-full-counting-formula",
+      "type": "stack",
+      "columns": [
+        [
+          "counting-formula"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-counting-setup",
+      "type": "stack",
+      "columns": [
+        [
+          "counting-setup"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-counting-visual",
+      "type": "stack",
+      "columns": [
+        [
+          "counting-visual"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-counting-worked-example",
+      "type": "stack",
+      "columns": [
+        [
+          "counting-worked-example"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-counting-practice-twelve",
+      "type": "stack",
+      "columns": [
+        [
+          "counting-practice-twelve"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-counting-practice-nothing",
+      "type": "stack",
+      "columns": [
+        [
+          "counting-practice-nothing"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-wanted-heading",
+      "type": "stack",
+      "columns": [
+        [
+          "wanted-heading"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-wanted-setup",
+      "type": "stack",
+      "columns": [
+        [
+          "wanted-setup"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-wanted-visual",
+      "type": "stack",
+      "columns": [
+        [
+          "wanted-visual"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-wanted-rule",
+      "type": "stack",
+      "columns": [
+        [
+          "wanted-rule"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-wanted-practice-choice",
+      "type": "stack",
+      "columns": [
+        [
+          "wanted-practice-choice"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-wanted-practice-percent",
+      "type": "stack",
+      "columns": [
+        [
+          "wanted-practice-percent"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-unequal-heading",
+      "type": "stack",
+      "columns": [
+        [
+          "unequal-heading"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-unequal-setup",
+      "type": "stack",
+      "columns": [
+        [
+          "unequal-setup"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-unequal-visual",
+      "type": "stack",
+      "columns": [
+        [
+          "unequal-visual"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-unequal-rule",
+      "type": "stack",
+      "columns": [
+        [
+          "unequal-rule"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-unequal-practice-wheel",
+      "type": "stack",
+      "columns": [
+        [
+          "unequal-practice-wheel"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-unequal-practice-counting",
+      "type": "stack",
+      "columns": [
+        [
+          "unequal-practice-counting"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-wrapping-heading",
+      "type": "stack",
+      "columns": [
+        [
+          "wrapping-heading"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-wrapping-summary",
+      "type": "stack",
+      "columns": [
+        [
+          "wrapping-summary"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    },
+    {
+      "id": "layout-wrapping-next",
+      "type": "stack",
+      "columns": [
+        [
+          "wrapping-next"
+        ]
+      ],
+      "props": {
+        "maxWidth": "xl"
+      }
+    }
+  ]
 }

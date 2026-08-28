@@ -32,26 +32,26 @@ export const countingEveryOutcomeBlocks: ReactElement[] = [
                 intro="Pick how your students will meet the idea of counting outcomes."
                 cards={[
                     {
-                        id: "prize-wheel",
-                        title: "A prize wheel where students choose how many slices win",
-                        looks: "A wheel split into 8 equal slices, some marked as the prize students want, with the probability shown underneath as a fraction, a decimal and a percentage.",
-                        manipulate: "Students tap slices to turn them into winning slices and press spin to try it out",
-                        reveals: "The probability is simply the number of winning slices out of the total number of slices",
+                        id: "impossible-to-certain-line",
+                        title: "Event cards dragged onto a line from impossible to certain",
+                        looks: "A line labelled impossible at one end and certain at the other, with cards for different results of one spin waiting underneath, such as winning the rare skin or winning any prize at all.",
+                        manipulate: "Students drag each card to where they think it belongs, then the counted outcomes and the matching fraction appear on the line",
+                        reveals: "The words students already use turn into exact numbers, and every number lands between 0 and 1",
                         recommended: true,
                     },
                     {
-                        id: "outcome-list",
-                        title: "A list of every possible outcome that students tick off",
-                        looks: "All the outcomes of one spin laid out as a row of labelled cards, with a running count of ticked cards and total cards.",
-                        manipulate: "Students tick the outcomes that count as a win and watch the two counts change",
-                        reveals: "Every probability comes from two counts: the outcomes you want and all the outcomes there are",
+                        id: "hundred-square-grid",
+                        title: "A hundred square where students shade the winning outcomes",
+                        looks: "A ten by ten grid of a hundred squares, with the shaded squares counted and shown as a fraction, a decimal and a percentage at the same time.",
+                        manipulate: "Students shade squares to match how much of the wheel each prize takes, and the three forms of the answer update together",
+                        reveals: "A probability is just the share of the whole, so a fraction, a decimal and a percentage are three ways of saying it",
                     },
                     {
-                        id: "token-bag",
-                        title: "A bag of coloured tokens with one token drawn out",
-                        looks: "A bag holding coloured tokens, with the number of each colour shown beside it and a bar showing the chance of drawing the chosen colour.",
-                        manipulate: "Students add or remove tokens of each colour and draw one at random",
-                        reveals: "Adding tokens changes both the wanted count and the total, so the chance moves in a way students can predict",
+                        id: "drop-table-tally",
+                        title: "A game drop table with results piling up in a bar chart",
+                        looks: "A table listing each prize and how many outcomes give it, beside a bar chart that grows as prizes are won.",
+                        manipulate: "Students press a button to claim ten, fifty or five hundred prizes and watch the bars build",
+                        reveals: "The bars settle into the same shares as the counted fractions, so counting really does predict what happens",
                     },
                 ]}
             />

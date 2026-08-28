@@ -77,6 +77,18 @@ export const variableDefinitions: Record<string, VariableDefinition> = {
     // ADD YOUR VARIABLES HERE
     // ========================================
 
+    rareSliceShare: {
+        defaultValue: 10,
+        type: 'number',
+        label: 'Rare skin slice size',
+        description: 'Percentage of the prize wheel taken up by the rare skin slice',
+        unit: '%',
+        min: 5,
+        max: 55,
+        step: 5,
+        color: '#7c3aed',
+    },
+
     winningOutcomes: {
         defaultValue: 2,
         type: 'number',

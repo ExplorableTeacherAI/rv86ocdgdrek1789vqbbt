@@ -77,6 +77,18 @@ export const variableDefinitions: Record<string, VariableDefinition> = {
     // ADD YOUR VARIABLES HERE
     // ========================================
 
+    winningOutcomes: {
+        defaultValue: 2,
+        type: 'number',
+        label: 'Winning slices',
+        description: 'How many of the eight equal wheel slices count as a win',
+        min: 1,
+        max: 7,
+        step: 1,
+        color: '#16a34a',
+    },
+
+
     // Uncomment and modify these examples for your lesson:
 
     /*

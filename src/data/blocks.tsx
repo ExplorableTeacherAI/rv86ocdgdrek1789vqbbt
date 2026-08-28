@@ -1,4 +1,10 @@
 import { type ReactElement } from "react";
+
+import { chanceOfOneThingBlocks } from "./sections/ChanceOfOneThing";
+import { countingEveryOutcomeBlocks } from "./sections/CountingEveryOutcome";
+import { wantedOverTotalBlocks } from "./sections/WantedOverTotal";
+import { whenSlicesArentEqualBlocks } from "./sections/WhenSlicesArentEqual";
+import { wrappingUpBlocks } from "./sections/WrappingUp";
 // import { Block } from "@/components/templates";
 // import { StackLayout, SplitLayout, GridLayout } from "@/components/layouts";
 
@@ -74,5 +80,9 @@ initializeVariableColors(variableDefinitions);
  */
 
 export const blocks: ReactElement[] = [
-    // Start adding your blocks here!
+    ...chanceOfOneThingBlocks,
+    ...countingEveryOutcomeBlocks,
+    ...wantedOverTotalBlocks,
+    ...whenSlicesArentEqualBlocks,
+    ...wrappingUpBlocks,
 ];

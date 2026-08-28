@@ -7,7 +7,7 @@ export const chanceOfOneThingBlocks: ReactElement[] = [
     <StackLayout key="layout-chance-title" maxWidth="xl">
         <Block id="chance-title" padding="md">
             <EditableH1 id="h1-chance-title" blockId="chance-title">
-                The Chance of One Thing Happening
+                By chance? or....?
             </EditableH1>
         </Block>
     </StackLayout>,
